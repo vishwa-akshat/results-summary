@@ -1,0 +1,23 @@
+@import "components/colors.scss";
+
+.result-info-wrapper {
+    box-sizing: border-box;
+    padding-top: 1.8rem;
+    width: 11.2rem;
+    height: 11.2rem;
+    background: linear-gradient($violet-blue-circle, $persian-blue-circle);
+    border-radius: 50%;
+
+    .result {
+        margin: 0;
+        color: $pale-blue;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    .score {
+        font-size: 1.2rem;
+        margin: 0;
+        color: $light-lavender;
+    }
+}

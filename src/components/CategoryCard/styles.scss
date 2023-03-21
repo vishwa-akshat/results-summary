@@ -1,0 +1,39 @@
+@import "components/colors.scss";
+
+.category-card {
+    padding: 1rem 0 1rem 0.7rem;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 2fr;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+
+    p {
+        margin: 0;
+    }
+
+    .scores {
+        color: $dark-gray-blue-60;
+        .scores-bold {
+            color: $dark-gray-blue;
+        }
+    }
+}
+
+.red-card {
+    color: $light-red;
+    background-color: $light-red-opaque;
+}
+.blue-card {
+    color: $cobalt-blue;
+    background-color: $cobalt-blue-opaque;
+}
+.yellow-card {
+    color: $orangey-yellow;
+    background-color: $orangey-yellow-opaque;
+}
+.green-card {
+    color: $green-teal;
+    background-color: $green-teal-opaque;
+}

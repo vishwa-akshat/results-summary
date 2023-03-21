@@ -1,0 +1,9 @@
+@import "components/colors.scss";
+
+.results-summary-container {
+    width: 40rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 0 20px $dark-gray-blue-10;
+    border-radius: 24px;
+}

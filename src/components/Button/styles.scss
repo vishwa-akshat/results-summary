@@ -1,0 +1,13 @@
+@import "components/colors.scss";
+
+.btn {
+    background-color: $dark-gray-blue;
+    color: $white;
+    border: none;
+    outline: none;
+    border-radius: 1.5rem;
+    height: 50px;
+    font-family: "Hanken";
+    font-weight: 500;
+    font-size: 1rem;
+}
