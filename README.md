@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop View Screenshot](./images/screenshot-desktop.jpg)
-![Mobile View Screenshot](./images/screenshot-mobile.jpg)
+![Desktop View Screenshot](./public/images/screenshot-desktop.png)
+![Mobile View Screenshot](./public/images/screenshot-mobile.jpg)
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://github.com/vishwa-akshat/results-summary)
--   Live Site URL: [Add live site URL here](https://results-summary-beige.vercel.app/)
+-   Solution URL: [https://github.com/vishwa-akshat/results-summary](https://github.com/vishwa-akshat/results-summary)
+-   Live Site URL: [https://results-summary-beige.vercel.app/](https://results-summary-beige.vercel.app/)
 
 ## Installation
 
