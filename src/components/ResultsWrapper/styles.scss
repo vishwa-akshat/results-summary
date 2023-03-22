@@ -7,7 +7,7 @@
     gap: 2rem;
     align-items: center;
     justify-items: center;
-    padding: 1rem 2rem 2rem;
+    padding: 1.5rem 2rem 2rem;
     text-align: center;
     border-radius: 2rem;
     background: linear-gradient(
@@ -30,9 +30,33 @@
             margin: 0;
         }
         .description {
+            font-size: 1.15rem;
             margin: 15px auto;
-            width: 80%;
+            width: 87%;
             color: $light-lavender;
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .results-wrapper {
+        gap: 0rem;
+        padding: 0rem 2rem 1.2rem;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+
+        .heading {
+            font-size: 1.1rem;
+        }
+
+        .analysis-wrapper {
+            .analysis {
+                font-size: 1.5rem;
+            }
+            .description {
+                font-size: 1rem;
+                margin: 8px auto;
+            }
         }
     }
 }

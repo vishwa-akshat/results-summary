@@ -1,7 +1,7 @@
 @import "components/colors.scss";
 
 .category-card {
-    padding: 1rem 0 1rem 0.7rem;
+    padding: 1rem 0 1rem 1.05rem;
     display: grid;
     grid-template-columns: 0.5fr 3fr 2fr;
     align-items: center;
@@ -13,7 +13,13 @@
         margin: 0;
     }
 
+    .category-text {
+        font-size: 1.1rem;
+    }
+
     .scores {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
         color: $dark-gray-blue-60;
         .scores-bold {
             color: $dark-gray-blue;
@@ -36,4 +42,28 @@
 .green-card {
     color: $green-teal;
     background-color: $green-teal-opaque;
+}
+
+@media only screen and (max-width: 425px) {
+    .category-card {
+        padding: 0.85rem 0 0.8rem 1.05rem;
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 2fr;
+        align-items: center;
+        gap: 10px;
+        font-weight: 700;
+        border-radius: 10px;
+
+        p {
+            margin: 0;
+        }
+
+        .category-text {
+            font-size: 0.9rem;
+        }
+
+        .scores {
+            font-size: 0.9rem;
+        }
+    }
 }

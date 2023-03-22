@@ -2,16 +2,17 @@
 
 .result-info-wrapper {
     box-sizing: border-box;
-    padding-top: 1.8rem;
-    width: 11.2rem;
-    height: 11.2rem;
+    padding-top: 3.4rem;
+    width: 12.5rem;
+    height: 12.5rem;
     background: linear-gradient($violet-blue-circle, $persian-blue-circle);
     border-radius: 50%;
 
     .result {
         margin: 0;
         color: $pale-blue;
-        font-size: 4rem;
+        font-size: 4.3rem;
+        line-height: 4.8rem;
         font-weight: 700;
     }
 
@@ -19,5 +20,22 @@
         font-size: 1.2rem;
         margin: 0;
         color: $light-lavender;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .result-info-wrapper {
+        padding-top: 1.9rem;
+        width: 9rem;
+        height: 9rem;
+
+        .result {
+            font-size: 3.5rem;
+            line-height: 4rem;
+        }
+
+        .score {
+            font-size: 1rem;
+        }
     }
 }

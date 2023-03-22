@@ -8,7 +8,7 @@ import "./styles.scss";
 export default function SummaryWrapper() {
     return (
         <div className="summary-wrapper">
-            <h1 className="heading">Summary</h1>
+            <p className="heading">Summary</p>
             <CategoryList />
             <Button labelText="Continue" />
         </div>
